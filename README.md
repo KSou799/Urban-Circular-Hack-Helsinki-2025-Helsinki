@@ -6,16 +6,16 @@
 
 ## Why PeakShift Helsinki?
 
-Every evening around **7 pm**, Helsinki sees a **sharp electricity spike**. Everyone plugs in EVs, turns on heating, cooks dinner, and runs appliances at the same time. This drives up prices, strains the grid, and can force the city to spend **€2 billion+ on upgrades** over 5–7 years.  
+Every evening around **7 pm**, Helsinki experiences a **sharp electricity spike**. EVs charge, heaters run, dinner is cooked, and appliances draw power simultaneously. This drives up electricity prices, stresses the grid, and could force the city to spend **€2 billion+ on upgrades over 5–7 years**.  
 
-**PeakShift Helsinki** shows how **smart scheduling of flexible devices** can flatten the peak, saving money, cutting CO₂, and easing city infrastructure pressure.  
+**PeakShift Helsinki** demonstrates how **smart scheduling of flexible devices** can flatten the peak, saving money, cutting CO₂ emissions, and reducing infrastructure strain.  
 
 ---
 
 ## Key Impact
 
-| Benefit | Result |
-|---------|--------|
+| Benefit | Potential Result |
+|---------|----------------|
 | **User Savings** | Up to **€16+ per day** |
 | **CO₂ Reduction** | Up to **3,400+ tCO₂/year** |
 | **City Grid** | Delay/avoid **€2 billion+ upgrades** |
@@ -24,11 +24,11 @@ Every evening around **7 pm**, Helsinki sees a **sharp electricity spike**. Ever
 
 ## How It Works
 
-- **Before:** Default scheduling — devices run according to typical habits  
-- **After:** Smart scheduling — flexible devices shift to off-peak hours  
+- **Before:** Devices run on default schedules — typical user behavior  
+- **After:** Smart scheduling shifts flexible devices to off-peak hours  
 
-**Adjustable sliders:**  
-- Flex participation (how many devices shift)  
+**Interactive sliders:**  
+- Flex participation (number of devices that shift)  
 - Grid vs Price optimization  
 
 **Scenarios:** Baseline, Winter, 2030 Future  
@@ -39,19 +39,27 @@ Every evening around **7 pm**, Helsinki sees a **sharp electricity spike**. Ever
 
 ![PeakShift Helsinki Screenshot](screenshot.png)  
 
-The top graph shows the peak. The bottom shows flattened demand after smart scheduling.
+*Top graph:* peak demand  
+*Bottom graph:* demand flattened via smart scheduling
 
 ---
-## Python + tkinter (standard library only)
-License
-## MIT — free to use and modify
+
+## Tech Stack
+
+- **Python 3.8+**  
+- **tkinter** (standard library only)  
+
+---
+
+## License
+
+**MIT** — free to use and modify  
+
+---
 
 ## Run the Simulator
-
-**Requirements:** Python 3.8+  
 
 ```bash
 git clone https://github.com/KSou799/Urban-Circular-Hack-Helsinki-2025-Helsinki-Finland.git
 cd Urban-Circular-Hack-Helsinki-2025-Helsinki-Finland
 python Hackathon_energy.py
-
