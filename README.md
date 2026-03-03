@@ -56,6 +56,7 @@ Every evening around **7 pm**, Helsinki experiences a **sharp electricity spik
 **MIT** — free to use and modify  
 
 ---
+
 ## Skills Demonstrated
 
 - **Energy Systems Modeling** – Peak demand analysis and load curve simulation  
@@ -66,10 +67,14 @@ Every evening around **7 pm**, Helsinki experiences a **sharp electricity spik
 - **Systems Engineering Thinking** – Urban infrastructure optimization modeling  
 - **Decision-Support Tool Design** – Translating engineering analysis into actionable insights
 
+---
+
 ## Author
 **Sou Komiya**  
 Mechanical Engineering Student – Metropolia UAS  
 December 2025
+
+---
 
 ## Run the Simulator
 ```bash
