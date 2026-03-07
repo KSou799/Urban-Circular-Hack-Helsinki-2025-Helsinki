@@ -1,21 +1,32 @@
-# FlexiCity — Demand-Response Simulator for Urban Energy Districts
+# FlexiCity – Helsinki Energy Peak Simulator
 
-Built at **Urban Circular Hack Helsinki 2025** · Python · Tkinter
-
-FlexiCity is an interactive desktop simulation that models what happens when a city district shifts flexible electricity loads from peak hours to off-peak hours — and quantifies the resulting reduction in grid stress, energy costs, and CO2 emissions.
-
-It simulates 24 real-world urban loads (EV fleets, heat pumps, HVAC, tram depots, hospitals, data centres) scheduled against actual Finnish day-ahead electricity prices and hourly CO2 intensity data.
+Built at **Urban Circular Hack Helsinki 2025**
 
 ---
 
-## Problem
+## What is this?
 
-Finland's electricity grid faces sharp demand spikes in the morning (07–09h) and evening (17–22h). Most of the loads driving those spikes — EV chargers, heat pumps, HVAC pre-cooling, industrial refrigeration — are temporally flexible. They need to run for a fixed number of hours but do not need to run at any specific hour.
+Every evening around 7 pm, electricity in Helsinki gets expensive. People come home from work and all at the same time they charge their EVs, cook dinner, run the dishwasher, and heat their homes. This sudden rush pushes up electricity prices and strains the grid.
 
-If a fraction of those loads shift by a few hours, the peak drops, grid infrastructure costs fall, and because the grid is cleaner at night and midday, CO2 emissions fall too. FlexiCity lets you explore exactly how much, and under what conditions.
+We used real price data from **Helen**, Helsinki's electricity provider, to show exactly when and why this happens — and built a simulator to show what would happen if people spread out their electricity use more evenly.
+
+Recent research highlights how quickly demand is growing. For example, electricity consumption in Espoo increased 46% between January 2023 and January 2024, and projections suggest that peak power demand in the region could rise by up to 179% between 2020 and 2030—nearly tripling within a decade (Wanne, 2025).
 
 ---
 
+## The Problem — The 7 pm Spike
+
+Using Helen's hourly price data, we found that electricity nearly **triples in price** between the middle of the night and the evening peak:
+
+| Time | Price (cents/kWh) |
+|------|-------------------|
+| 02:00 | 8.52 (cheapest) |
+| 17:00 | 18.60 ↑ rising |
+| 18:00 | 21.53 ↑ |
+| **19:00** | **22.68 — daily peak** |
+| 21:00 | 17.09 ↓ falling |
+
+This spike happens because everyone gets home from work at the same time and does the same things at once — plugging in their EV, turning on the oven, switching on heating. If people (or smart devices) could shift some of that load to cheaper hours, everyone saves money and the grid is more stable.
 ## Features
 
 | Feature | Description |
