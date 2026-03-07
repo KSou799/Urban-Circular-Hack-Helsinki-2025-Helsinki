@@ -1,6 +1,6 @@
 # FlexiCity — Demand-Response Simulator for Urban Energy Districts
 
-Built at **Urban Circular Hack Helsinki 2025** · Python · Tkinter · No external dependencies
+Built at **Urban Circular Hack Helsinki 2025** · Python · Tkinter
 
 FlexiCity is an interactive desktop simulation that models what happens when a city district shifts flexible electricity loads from peak hours to off-peak hours — and quantifies the resulting reduction in grid stress, energy costs, and CO2 emissions.
 
