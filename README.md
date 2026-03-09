@@ -97,12 +97,6 @@ Finland's energy context makes demand-response particularly relevant: high elect
 
 ---
 
-## References
-
-Wanne, M. (2025). *[Source title]*. [Publisher/Journal]. — cited for EV demand growth projections in the Espoo/Helsinki region.
-
----
-
 ## License
 
 MIT
